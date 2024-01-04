@@ -36,6 +36,23 @@ Ho clonato i file stl per comodità e li ho messi nella cartella stl di questo r
 ## Assemblaggio
 
 Video del progetto originale che illustra i vari passaggi principali sia di assemblaggio che della messa in funzione: https://www.youtube.com/watch?v=WtUIBxfddjw
+Schema di collegamento dei 3 motori driver:
+| Axis       | Arduino      |ULN2003|ULN2003|28BYJ-48|
+|:----------:|:------------:|:-----:|:-----:|:------:|
+| X-Axis     |      D5      |IN1    |OUT1   |BLUE    |
+|            |      D4      |IN2    |OUT2   |PINK    |
+|            |      D2      |IN3    |OUT3   |YELLOW  |
+|            |      D2      |IN4    |OUT4   |ORANGE  |
+| Y-Axis     |      A0      |IN1    |OUT1   |BLUE    |
+|            |      A1      |IN2    |OUT2   |PINK    |
+|            |      A2      |IN3    |OUT3   |YELLOW  |
+|            |      A3      |IN4    |OUT4   |ORANGE  |
+| Z-Axis     |      D13     |IN1    |OUT1   |BLUE    |
+|            |      D12     |IN2    |OUT2   |PINK    |
+|            |      D9      |IN3    |OUT3   |YELLOW  |
+|            |      D8      |IN4    |OUT4   |ORANGE  |
+|            |              |       |+5V    |RED     |
+
 
 ## Software
 
@@ -47,7 +64,7 @@ Famoso software open per manipolare e creare file vettoriali.
  - **jscut**: https://jscut.org/jscut.html
 Consente di convertire file vettoriali svg contenenti path (eventuali font vanno convertiti in path prima con inkscape) in file gcode rispetto ai parametri della cnc configurati.
 Nel path di questo repo (/jscut-settings/settings_20240105.jscut) c'è un esempio di impostazioni da caricare su jscut, nel caso è possible variare manualmente i settaggi, il pannello più importante si trova in masso a sinistra:
-<img src="./jscut-settings/settings-screen.png" alt="jscut-settings-screen" width="50%" height="auto">
+<img src="./jscut-settings/settings-screen.png" alt="jscut-settings-screen" width="30%" height="auto">
 
 **Diameter** : sarebbe il diametro della fresa, nel nostro caso la larghezza del tratto disegnato dalla penna (più è fine più passate serviranno per disegnare)
 **Pass Depth**: quanto dovrà andare in profondità la penna sull'asse z, si imposta un po' per tentativi

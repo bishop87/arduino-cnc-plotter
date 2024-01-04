@@ -79,3 +79,16 @@ applicativo java based che consente di pilotare la cnc (il nostro arduino con fi
 4. testare il movimento degli assi, misurando il reale spostamento rispetto al valore atteso ed inserire i parametri di step/mm calcolati dal programma (nel mio caso 72 step/mm sia per x che per y).
 5. concludere il wizard senza modificare altro.
 
+
+## Conclusioni
+
+Alcune foto del risultato finale
+
+<img src="./img/20231228_134653.jpg" alt="foto1" width="50%" height="auto">
+
+<img src="./img/s20231228_135135.jpg" alt="foto2" width="50%" height="auto">
+
+<img src="./img/20231228_140535.jpg" alt="foto3" width="50%" height="auto">
+
+<img src="./img/20231231_153702.jpg" alt="foto14" width="50%" height="auto">
+

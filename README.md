@@ -7,6 +7,8 @@ Progetto per realizzare un mini plotter cnc pilotato con arduino e motori passo 
 
 - 3 x motori passo passo 28byj-48 (io ho usato quelli a 5V)
 - 3 x driver motori ULN2003 (solitamente venduti con i motori)
+<img src="./img/stepper-28byj-48.jpg" alt="stepper-28byj-48" width="50%" height="auto">
+
 - 1 x arduino nano
 - 1 x cuscinetto a sfera tipo 608
 - 1 x LM7805 (o modulo stepdown per ottenere 5V)
@@ -35,7 +37,8 @@ Famoso software open per manipolare e creare file vettoriali.
  - **jscut**: https://jscut.org/jscut.html
 Consente di convertire file vettoriali svg contenenti path (eventuali font vanno convertiti in path prima con inkscape) in file gcode rispetto ai parametri della cnc configurati.
 Nel path di questo repo (/jscut-settings/settings_20240105.jscut) c'è un esempio di impostazioni da caricare su jscut, nel caso è possible variare manualmente i settaggi, il pannello più importante si trova in masso a sinistra:
-![jscut-settings-screen](./jscut-settings/settings-screen.png)
+<img src="./jscut-settings/settings-screen.png" alt="jscut-settings-screen" width="50%" height="auto">
+
 **Diameter** : sarebbe il diametro della fresa, nel nostro caso la larghezza del tratto disegnato dalla penna (più è fine più passate serviranno per disegnare)
 **Pass Depth**: quanto dovrà andare in profondità la penna sull'asse z, si imposta un po' per tentativi
 **Step Over**: percentuale di sovrapposizione delle varie passate, più il valore è basso più passate sovrapposte ci saranno, aumenterà di conseguenza il tempo e l'inchiostro usato.

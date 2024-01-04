@@ -86,7 +86,7 @@ Alcune foto del risultato finale
 
 <img src="./img/20231228_134653.jpg" alt="foto1" width="50%" height="auto">
 
-<img src="./img/s20231228_135135.jpg" alt="foto2" width="50%" height="auto">
+<img src="./img/20231228_135135.jpg" alt="foto2" width="50%" height="auto">
 
 <img src="./img/20231228_140535.jpg" alt="foto3" width="50%" height="auto">
 

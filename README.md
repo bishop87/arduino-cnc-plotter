@@ -41,7 +41,7 @@ Schema di collegamento dei 3 motori driver:
 |:----------:|:------------:|:-----:|:-----:|:------:|
 | X-Axis     |      D5      |IN1    |OUT1   |BLUE    |
 |            |      D4      |IN2    |OUT2   |PINK    |
-|            |      D2      |IN3    |OUT3   |YELLOW  |
+|            |      D3      |IN3    |OUT3   |YELLOW  |
 |            |      D2      |IN4    |OUT4   |ORANGE  |
 | Y-Axis     |      A0      |IN1    |OUT1   |BLUE    |
 |            |      A1      |IN2    |OUT2   |PINK    |

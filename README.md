@@ -21,7 +21,17 @@ Progetto per realizzare un mini plotter cnc pilotato con arduino e motori passo 
 ## Componenti 3D
 
 Progetto Thingiverse principale da cui sono partito: https://www.thingiverse.com/thing:4796222 
-
+Ho clonato i file stl per comodità e li ho messi nella cartella stl di questo repo:
+- _SpurGear.stl_: ingranaggio da montare sul motore stepper (ne servono 2)
+- _bearing_center.stl_: cilindro che restringe il foro del cuscinetto a sfera di tipo 608 per usarlo con una vite da 2-3mm di diametro
+- _pen_cap.stl_: cappello da mettere sulla penna con un paio di elastici per rendere morbido l'appoggio della penna sul foglio
+- _pen_holder.stl_: supporto che gestisce la penna e si fissa sul motore per l'asse Z, la parte centrale deve risultare mobile e alloggia una vite per bloccare la penna in posizione
+- _plate_01.stl_: binario per l'asse Y
+- _plate_02.stl_: asse Y con barra dentata
+- _plate_03.stl_: binario per l'asse X
+- _plate_04.stl_: asse X con barra dentata
+- _prop.stl_: supporto da incollare al binario per l'asse X
+- _prop_bearing_608.stl_: alternativa da usare al prop.stl se si ha un cuscinetto di tipo 608
 
 ## Assemblaggio
 
